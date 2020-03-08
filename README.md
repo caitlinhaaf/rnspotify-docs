@@ -22,6 +22,10 @@ Below you'll find information about performing common tasks. Additional Informat
 
 * Please refer to the [SOFTWARE_README.md](./SOFTWARE_README.md)  document for additional details
 
+## Workshop Workflow
+
+The workshop's workflow is described in this [document](./WORKSHOP_WORKFLOW.md)
+
 ## Table of Contents
 
 * [Updating to New Releases](#updating-to-new-releases)
@@ -59,7 +63,7 @@ Upgrading to a new version of React Native requires updating the `react-native`,
 
 If Yarn was installed when the project was initialized, then dependencies will have been installed via Yarn, and you should probably use it to run these commands as well. Unlike dependency installation, command running syntax is identical for Yarn and NPM at the time of this writing.
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs your app in development mode.
 

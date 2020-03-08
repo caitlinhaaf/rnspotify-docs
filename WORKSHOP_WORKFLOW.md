@@ -1,4 +1,4 @@
-# WORKSHOP WORKFLOW
+# WORKSHOP DETAILS
 
 1. Introductions
 2. Software Installation Review and Troubleshooting
