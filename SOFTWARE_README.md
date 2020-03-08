@@ -2,12 +2,12 @@
 
 This document outlines the recommended setup to create a React Native Application for your project. The instructions provided represent the *generalized* steps only. Where links are provided, it is suggested that you follow those links to get detailed instructions if needed. However, there are some assumptions noted below.
 
-Assumptions:
+##  Assumptions
 
 1. You are running a recent (64-bit) version of your respective OS (Windows 10+ or Mac OS X High Sierra / Mojave / Catalina)
 2. Plenty of hard drive space to install the software below for your OS and a decent amount of RAM and CPU. (8 GB RAM, i7 processor is suggested)
 3. Any provided links within this document may be updated without notice, causing the links to break. This document will be refreshed at the instructor's discretion.
-4. You have worked through some development processes before, i.e. you have perhaps created a website, so are familiar with software installation processes. If not, consult with one of the technical leaders during the workshop so that you can be brought up to speed.
+4. You have worked through some development processes before, i.e. you have perhaps created a website, so you are familiar with software installation processes. If not, consult with one of the technical leaders during the workshop so that you can be brought up to speed.
 
 ## Table of Contents
 
@@ -32,11 +32,11 @@ Assumptions:
     + [Additional Prerequisites](#additional-prerequisites)
     + [Intel Virtualization Technology Hardware Requirement.](#intel-virtualization-technology-hardware-requirement)
     + [JAVA](#java)
-    + [GIT](#git-1)
-    + [HAXM (Intel x86 Emulator Accelerator)](#haxm--intel-x86-emulator-accelerator-)
-    + [Node / NPM](#node---npm-1)
-    + [Yarn](#yarn-1)
-    + [Expo](#expo)
+    + [GIT with Windows](#git-with-windows)
+    + [HAXM (Intel x86 Emulator Accelerator)](#haxm-intel-x86-emulator-accelerator)
+    + [Node / NPM](#node--npm-on-windows)
+    + [Yarn](#yarn-on-windows)
+    + [Expo](#expo-on-windows)
     + [Install Android Studio and Appropriate SDK](#install-android-studio-and-appropriate-sdk)
   * [LINUX](#linux)
   * [TESTING SETUP OF A REACT NATIVE PROJECT](#testing-setup-of-a-react-native-project)
@@ -76,7 +76,7 @@ These items *may be needed* . Note that Python 2 and 3 alongside each other requ
 
 ### IDEs (Integrated Development Environments
 
-* As always, we preach an unopinionated, agnostic environment as much as possible, so it doesn't really matter what IDE you wish to use. However, we will focus upon two for now.
+* As always, we preach an unopinionated, agnostic environment as much as possible, so it doesn't really matter what IDE you wish to use. However, we can utilize these. Note though that we are *not* going to talk about IDE specifics. There is an assumption that you know how to use the IDE you and up working with. Yes, there may be plugins, extensions, features that will help facilitate workflow, but really you want to focus upon the code.
 
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 - [Jetbrains Webstorm](https://www.jetbrains.com/webstorm/)
@@ -237,7 +237,7 @@ The diagram below provides some insight indicating where to apply your settings.
 
 3. You may also have to set another variable, ANDROID_HOME, to point to the location of the installed SDKs.
 
-### GIT
+### GIT with Windows
 
 1. You can download and install Git from [here](https://git-scm.com/)
 
@@ -249,12 +249,12 @@ You will need the Intel x86 Emulator Accelerator (HAXM installer) to run the emu
 https://github.com/intel/haxm/wiki/Installation-Instructions-on-Windows
 
 
-### Node / NPM
+### Node / NPM on Windows
 
 1. Install Node / NPM from the NodeJS website [here](https://nodejs.org/en/)
 
 
-### Yarn
+### Yarn on Windows
 
 Yarn is a package manager similar to NPM. You can run the entire React Native Setup and Development using Yarn instead of NPM. The key is to *be consistent*. When we are installing various Node / React packages, use one package manager only during the entire process.
 
@@ -266,7 +266,7 @@ Confirm installation of Yarn from within your terminal
 
 `yarn --version`
 
-### Expo
+### Expo on Windows
 
 The Expo CLI is a command line interface program that provides access to the Expo toolset, which is strongly aligned for React Native Development.
 
