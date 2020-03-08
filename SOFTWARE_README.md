@@ -1,13 +1,13 @@
 # React Native Creative - Spotify Player - SOFTWARE README
 
-This document outlines the recommended setup to create a React Native Application for your project.
-
+This document outlines the recommended setup to create a React Native Application for your project. The instructions provided represent the *generalized* steps only. Where links are provided, it is suggested that you follow those links to get detailed instructions if needed. However, there are some assumptions noted below.
 
 Assumptions:
 
 1. You are running a recent (64-bit) version of your respective OS (Windows 10+ or Mac OS X High Sierra / Mojave / Catalina)
 2. Plenty of hard drive space to install the software below for your OS and a decent amount of RAM and CPU. (8 GB RAM, i7 processor is suggested)
 3. Any provided links within this document may be updated without notice, causing the links to break. This document will be refreshed at the instructor's discretion.
+4. You have worked through some development processes before, i.e. you have perhaps created a website, so are familiar with software installation processes. If not, consult with one of the technical leaders during the workshop so that you can be brought up to speed.
 
 ## Table of Contents
 
