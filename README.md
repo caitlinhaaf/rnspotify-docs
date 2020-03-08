@@ -1,40 +1,47 @@
 # REACT NATIVE CREATIVE - SIMPLE SPOTIFY PLAYER: DOCS
 
+Version 1.02
+Last Revised March, 2020
+
 This is an example of a simple [React Native](https://facebook.github.io/react-native/) app that illustrates using the Spotify V1 API.
 
-Here we go! For the workshop, please follow the instructions provided in the Recommended Setup section below.
+Here we go! For the workshop, please prepare your development machine by following the instructions [here](./SOFTWARE_README.md). This document is key.
 
 Afterward, review the Workshop Workflow if you want to get a 'flavour' for how this workshop will progress.
 
-As always, keep in mind that all these documents are subject to being updated at any time.
+As always, keep in mind that all these documents are subject to being updated at any time. Links may added, removed, updated, and deleted at any time.
+
+Additionally, this exercise represents an amalgam of information that you may find on the web, plus practices that are currently put in place in the field. Sure, we can go "native", "eject", "use hooks", etc., etc., but really what is shown here is a path to active development. Once you find a path that works, then begin to experiment and be more "creative".
 
 ## Assumptions
 * You are new to this "React Native" thing
 * You are new to Mobile
+* You likely created some web stuff (a website?) before.
+* You are versed on JavaScript and versed in an IDE that you want to use. We don't want to spend a long time on "shortcuts" , "add-ons", "libraries". We're just looking at pure RN practice.
 
 ## General Setup
 
-This project was bootstrapped with Expo CLI, which is an endorsed method for Creating React Native Apps [Create React Native Apps with Expo CLI](https://github.com/expo/expo-cli).
+This project was bootstrapped with Expo CLI, which is an endorsed method for Creating React Native Apps  - see [Create React Native Apps with Expo CLI](https://github.com/expo/expo-cli) if you want to explore the nitty gritty details.
 
 Below you'll find information about performing common tasks. Additional Information can be found here:
 
-* [React Native Getting Started] (https://reactnative.dev/docs/getting-started)
-* [Expo CLI Documentation] (https://docs.expo.io/versions/latest/)
+* [React Native Getting Started](https://reactnative.dev/docs/getting-started)
+* [Expo CLI Documentation](https://docs.expo.io/versions/latest/)
 
 
 ## Recommended Setup
 
-* Please refer to the [SOFTWARE_README.md](./SOFTWARE_README.md)  document for additional details
+* Again, Please refer to the [SOFTWARE_README.md](./SOFTWARE_README.md)  document for additional details
 
 ## Workshop Workflow
 
 The workshop's workflow is described in this [document](./WORKSHOP_WORKFLOW.md)
 
-## Table of Contents
+## Miscellaneous Technical Information
 
 * [Updating to New Releases](#updating-to-new-releases)
 * [Available Scripts](#available-scripts)
-  * [npm start](#npm-start)
+  * [npm start](#npm-start-or-yarn-start)
   * [npm test](#npm-test)
   * [npm run ios](#npm-run-ios)
   * [npm run android](#npm-run-android)
@@ -48,7 +55,7 @@ The workshop's workflow is described in this [document](./WORKSHOP_WORKFLOW.md)
   * [Publishing to Expo's React Native Community](#publishing-to-expos-react-native-community)
   * [Building an Expo "standalone" app](#building-an-expo-standalone-app)
   * [Ejecting from Create React Native App](#ejecting-from-create-react-native-app)
-    * [Build Dependencies (Xcode & Android Studio)](#build-dependencies-xcode-android-studio)
+    * [Build Dependencies (Xcode & Android Studio)](#)
     * [Should I Use ExpoKit?](#should-i-use-expokit)
 * [Troubleshooting](#troubleshooting)
   * [Networking](#networking)
@@ -56,6 +63,8 @@ The workshop's workflow is described in this [document](./WORKSHOP_WORKFLOW.md)
   * [QR Code does not scan](#qr-code-does-not-scan)
 
 ## Updating to New Releases
+
+We'll be using `create-react-native-app` to quickly ramp up to creating a React Native application.
 
 You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
 
@@ -153,6 +162,9 @@ npm start
 The above example would cause the development server to listen on `exp://my-custom-ip-address-or-hostname:19000`.
 
 ## Adding Flow
+
+
+We have an option to add Flow to this project.
 
 Flow is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
 
