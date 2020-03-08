@@ -3,7 +3,7 @@
 Version 1.02
 Last Revised March, 2020
 
-This is an example of a simple [React Native](https://facebook.github.io/react-native/) app that illustrates using the Spotify V1 API.
+You will be creating a simple [React Native](https://facebook.github.io/react-native/) app that illustrates using the Spotify V1 API.
 
 Here we go! For the workshop, please prepare your development machine by following the instructions [here](./SOFTWARE_README.md). This document is key.
 
