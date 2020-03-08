@@ -35,16 +35,18 @@ Refer to [SOFTWARE_README](SOFTWARE_README.md) for information regarding install
 
 ## Practical (1)
 
-The following items indicate the branches that the teams will be working upon. Each branch will have a series of steps to walk through toward completion.
+The following items indicate the proposed branches that the teams will be working upon. Each branch will have a series of steps to walk through toward completion.
 
-Note: These items are subject to change
+Prior to the workshop there will be a minimal number of steps represented as branches that contain the workshop files available [here](https://github.com/university-of-toronto-fsf/rnc-spotify). As a note, they are provided here for context only. In the past, often participants (yours truly, included) would often "rush" to the solution files, often without an *understanding* of how they got there - just to have the source code 'available' .
 
-01-Initial App Creation
-02-Create Interfaces for Spotify API
-03-Components - Search Component
-04-Styling - Search Component
-05-Business Logic - Search Component
-06-Event Handling - Search Component
+Note: The branches and steps will be subject to change.
+
+* 01-Initial App Creation
+* 02-Create Interfaces for Spotify API
+* 03-Components - Search Component
+* 04-Styling - Search Component
+* //05-Business Logic - Search Component
+* //06-Event Handling - Search Component
 
 ## Break
 
@@ -52,15 +54,15 @@ Note: These items are subject to change
 
 The following items indicate the branches that the teams will be working upon. Each branch will have a series of steps to walk through toward completion.
 
-Note: These items are subject to change
+Note: These items are subject to change.
 
-07-Model Creation and Testing
-08-Component - List Items
-09-Styling - Alignment of List Items
-10-View - Scrolling
-11-Components- Integration
-12-Controller - Spotify API Integration
-13-Fixes and Testing
+* //07-Model Creation and Testing
+* //08-Component - List Items
+* //09-Styling - Alignment of List Items
+* //10-View - Scrolling
+* //11-Components- Integration
+* //12-Controller - Spotify API Integration
+* //13-Fixes and Testing
 
 ## Review / Q & A
 
