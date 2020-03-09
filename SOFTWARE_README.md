@@ -53,6 +53,7 @@ Whether or not you are running a Mac or Windows, you will need to install the fo
 * [Expo CLI](https://docs.expo.io/versions/latest/get-started/installation/)
 * [React Native CLI]()
 
+
 ### Note - Java for Android Development
 
 You may wish to have installed a current version of Java SE SDK. This is definitely needed for Windows users, or Mac Users who wish to develop on Android devices.
@@ -101,6 +102,7 @@ With each of these software products, you may need to refer to specific installa
 
 * Install [Homebrew](https://brew.sh/)
 * Install or update your version of [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and the [Command Line Development Tools](https://developer.apple.com/xcode/features/) using the command `xcode-select --install` in the Mac OS X terminal (you can look up this link for some info [here](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) ). Command Line Tools should come with XCode.
+* Expo App for your iPhone Simulator - https://docs.expo.io/versions/latest/workflow/ios-simulator/
 * Install [Android Studio](https://developer.android.com/studio#downloads), choosing the dmg installer and the appropriate Android SDK
 * Install [Watchman](https://facebook.github.io/watchman/docs/install.html) *after* Installing - Homebrew, and  Node / NPM but *before* installing Expo CLI
 * (Optional) Install [CocoaPods](https://cocoapods.org/)
@@ -190,6 +192,10 @@ Confirm that expo is installed by typing in
 or
 
 `expo-cli --version`
+
+Don't forget to also install the Expo 'App' on your iPhone Simulator too - https://docs.expo.io/versions/latest/workflow/ios-simulator/
+
+
 
 ## WINDOWS
 
@@ -293,6 +299,7 @@ Alternatively you can try this option:
 (see [here](https://github.com/expo/expo-cli/issues/590)) for additional information.
 
 
+
 ### Install Android Studio and Appropriate SDK
 
 Install [Android Studio](https://developer.android.com/studio#downloads), choosing the current Windows .exe installer and the appropriate Android SDK.
@@ -304,6 +311,9 @@ Additional information can be found in the links below:
 [Installing Android SDK on Windows / Mac / Linux](https://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial)
 
 [Android SDK and AVD Setup for React Native](https://www.youtube.com/watch?v=KRLLjlpy0r4)
+
+Don't forget to also install the Expo 'App' on your Android Simulator too - https://docs.expo.io/versions/v34.0.0/workflow/android-studio-emulator/
+
 
 ## LINUX
 
